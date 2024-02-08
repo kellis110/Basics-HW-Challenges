@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=img, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+    body{
+        margin:200px;
+    }
+    img{
+        width:200px;
+    }
+    .img-one{
+        transform: rotate(10deg) translate3d(200px, 50%, 3em);
+    }
+    .img-two{
+        transform: translate3d(100px, 500px, 20px) scale(1.5) rotate(150deg);
+        border:5px solid darkgreen;
+    }
+    .img-three{
+        transform: rotate(10deg) translate3d(50px, 65%, 3em) skew(30deg);
+    }
+    .img-four{
+        transform: rotate(100deg) translate3d(25%, 50%, 3em);
+    }
+    </style>
+</head>
+<body>
+    <img src="https://res-5.cloudinary.com/simpleview/image/upload/v1/clients/norway/northern-lights-elgsnes-harstad-norway_2-1_16dd74ba-1025-4516-aa3f-d4ca75231c1b.jpg" alt="Image of Norway" class="img-one">
+    <img src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/a13aa1a8a0ff916c12d9a82269621a34fdf18446/big-7ea8f244986b09e6868dfd36c6a57873.jpg" alt="Image of city in Norway" class="img-two">
+    <img src="https://lp-cms-production.imgix.net/2021-04/GettyRF_588880345.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=20&dpr=5" alt="River in Norway" class="img-three">
+    <img src="https://th.bing.com/th/id/OIP.b8pCL_Tp2bnVryGCLvm0xwHaE8?rs=1&pid=ImgDetMain" alt="Norway flag" class="img-four">
+</body>
+</html>
